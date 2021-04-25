@@ -1,4 +1,4 @@
-baseurl = "http://people-unleashed.com/"
+baseurl = "https://people-unleashed.com/"
 title = "PEOPLE Unleashed"
 paginate = 5
 buildFuture = true
