@@ -4,10 +4,10 @@ paginate = 5
 buildFuture = true
 theme = "story"
 
-[[menu.social]]
-  name = "GitHub"
-  title = "fab fa-github-square"
-  url = "https://github.com/xaprb/story/"
+[params]
+  author = "PEOPLE Unleashed"
+  twitter = "https://people-unleashed.com/"
+  classes = []
 
 [[menu.main]]
   name = "Talks"
@@ -24,10 +24,7 @@ theme = "story"
   title = "Archives"
   url = "/archives/"
 
-[params]
-  author = "Baron Schwartz"
-  twitter = "xaprb"
-  classes = []
+
 
 [outputs]
   home = ["HTML", "JSON", "RSS"]
