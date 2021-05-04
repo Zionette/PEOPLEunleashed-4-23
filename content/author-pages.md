@@ -1,111 +1,55 @@
 ---
 author: Elvis Presley
-title: Story's Author Profiles
+title: America's Future - Lieutenant General, U.S. Army (Retired), Honorable Michael T. Flynn
 url: /author-profiles
 date: "2018-08-29"
 description: "With Story, you can define global and per-item author profiles/biographies."
-image: "img/unsplash-photos-TzMi5Ov7QeM.jpg"
+image: "img/AmericasFuture2.png"
 credit: "https://unsplash.com/photos/TzMi5Ov7QeM"
-thumbnail: "img/unsplash-photos-TzMi5Ov7QeM.tn-500x500.jpg"
+thumbnail: "img/AmericasFuture1.png"
 categories:
 - Demo
 ---
-Story supports author profiles, so you can highlight your bio.
-It's possible to set this globally for the entire site, or individually for each
-piece of content. Or you can set a global default and override it on individual
-pieces of content.
-Scroll to the bottom of any page on this site to see how author profiles are
-styled.
+We believe in, we stand for, above all, the God-given freedom of the individual. We hold 
+that the Constitution of the United States is the most profoundly important instrument 
+ever devised by man for the protection of that freedom – the Constitution as written by 
+the Founders of the American Republic, construed in proper context, and safeguarded from 
+subversion by a collectivist state.
 <!--more-->
 
-Story's author profile system is a slightly simplified (incomplete)
-implementation of the ideas laid out in [Netlify's how-to
-document](https://www.netlify.com/blog/2018/07/24/hugo-tips-how-to-create-author-pages/).
-It allows only one author per piece of content, and doesn't require Hugo to
-create the authors taxonomy.  Because it's incomplete, it's a) missing a few of the
-features Netlify describes, and b) easier to set up.
+We support the private enterprise capitalist economic system. The republican form of 
+government that protects our freedom cannot otherwise endure. Likewise, without 
+Constitutional guarantees, our free enterprise economy cannot long survive. Together, 
+they have established the United States of America as the freest and most bountiful nation
+on earth.  We perceive as the most serious threat to our freedom and way of life the ideologies of collectivism and state socialism.
 
-### Global And Per-Content Authors
+We see it as our duty – and as the obligation of all thoughtful, freedom-loving Americans – to oppose 
+all efforts for an ever bigger and more omnipotent government that would make the state 
+our master rather than the servant of the people as intended by our Founding Fathers.
 
-If you want to specify an author in the front matter of each post, it's
-simply specified like this (YAML example):
+FIFTY(+) YEARS OF AMERICA’S FUTURE
 
-```
----
-author: "Elvis Presley"
----
-```
+When America’s Future was founded, over fifty years ago, the Second World War had just 
+ended, and the United Nations had just been launched. The Cold War had not yet begun, and 
+neither had the conservative movement. Fifty years ago, the number of conservative, constitutionalist, 
+free-market-oriented organizations and publications could be counted on one hand. But the number of 
+communist-front organizations, to say nothing of liberal and left groups, numbered more 
+than one thousand.
 
-If you want to set a global author parameter for the entire site, which will serve as
-the default in case any pieces of content don't specify their own, use your
-config file's `params` array:
+Our nation was in transition, and our enemies moved quickly to make the most of it. There 
+was an obvious need for organizations and individuals willing to defend the American way. 
+And so, on April 24, 1946, America’s Future Inc., a nonprofit, tax-exempt educational 
+organization, was founded in New York City by a group of businessmen dedicated to the 
+preservation of two great fundamental American principles: the competitive, private 
+enterprise system that has made our country strong and prosperous, and the constitutional 
+form of government that has kept us free from the tyranny of individuals or factions.
 
-```
-params:
-   author: "Baron Schwartz"
-```
+We had among our founding members such distinguished Americans as Frank E. Gannett (our first president), 
+Mrs. Amos Pinchot, and Gen. Robert E. Wood of Sears-Roebuck. The many prominent Americans
+who have served as trustees include National Association of Manufacturers past president 
+Robert L. Lund (a longtime president of America’s Future); Henning W. Prentis Jr. of Armstrong Cork Co.; 
+former New Jersey Governor Charles Edison; George W. Strake of Houston; and Charles Hook of Armco Steel.
 
-That's exactly what this sample site you're reading right now does: Baron is the
-author by default, but Elvis is the author of _this_ content you're reading now.
-
-### Creating Author Profiles
-
-To create author profiles, you need to create the author hierarchy under
-`content`, and a slugified directory for each author. Then, place an `_index.md`
-file into each of those directories, and give it the content needed to describe
-the author.
-
-For example:
-
-```
-└── content/
-    └── authors/
-        ├── elvis-presley/
-        │   └── _index.md
-        ├── aretha-franklin/
-        │   └── _index.md
-        └── stevie-wonder/
-            └── _index.md
-```
-
-You can put any content you want in the file, but Story has CSS to nicely format
-a square image followed by a paragraph of text. This page you're viewing right
-now has "Elvis Presley" as its author, and the content of
-`content/authors/elvis-presley/_index.md` is:
-
-```
----
----
-![Elvis](/img/elvis.jpg)
-
-Elvis Aaron Presley (January 8, 1935 – August 16, 1977) was an American singer
-and actor. Regarded as one of the most significant cultural icons of the 20th
-century, he is often referred to as the "King of Rock and Roll" or simply "the
-King".
-```
-
-### Global Fallback Content
-
-Even if you don't have an author directory and a specific author's file as
-described above, you can create content that will serve as a fallback across the
-whole site. If Story doesn't find a specific author's profile page, it'll look
-for the default `_index.md` content for the section it's currently rendering.
-The top-level default for the whole site is `content/_index.md`, which this demo
-site uses to provide Baron Schwartz's author information. This information will
-appear on all pages _other than_ the current page, which is authored by Elvis
-Presley. This fallback information from `content/_index.md` looks like the
-following:
-
-```
-[![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)
-
-Baron Schwartz is the founder and CTO of [VividCortex](https://vividcortex.com), author of
-several books, and creator of various open-source software. He writes about topics
-such as technology, entrepreneurship, and fitness. [More about
-Baron](https://www.xaprb.com/).
-```
-
-This content is a (non-author-specific) fallback for the entire site.
-You can see it on all the other pages of this site.
+[Continue Learning about America's Future](https://www.americasfuture.net/about/)
 
 Read next: [Story's figures, captions, and tables](/figures/).

@@ -9,6 +9,18 @@ theme = "story"
   twitter = "https://people-unleashed.com/"
   classes = []
 
+[[menu.social]]
+  name = "CloutHub"
+  title = "fab fa-clouthub-square"
+  url = "https://app.clouthub.com/private/2d9e0f2a-e949-4a85-a311-dfeb43fdde5f"
+
+[[menu.social]]
+  name = "MeWe"
+  title = "fab fa-mewe-square"
+  url = "https://mewe.com/i/zionettecleek"
+
+
+
 [[menu.main]]
   name = "Talks"
   title = "Talks"
@@ -23,6 +35,21 @@ theme = "story"
   name = "Archives"
   title = "Archives"
   url = "/archives/"
+  
+[[menu.main]]
+  name = "MeWe"
+  title = "MeWe"
+  url = "https://mewe.com/i/zionettecleek"
+  
+[[menu.main]]
+  name = "CloutHub"
+  title = "CloutHub"
+  url = "https://app.clouthub.com/private/2d9e0f2a-e949-4a85-a311-dfeb43fdde5f"
+  
+[[menu.main]]
+  name = "MPN"
+  title = "MPN"
+  url = "https://mypatriotsnetwork.com/" 
 
 
 
