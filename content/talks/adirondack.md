@@ -1,8 +1,7 @@
 ---
 title: "PEOPLE Unleashed"
-date: "2021-04-11" 
 location: "Mount Remarkable, 6346+F7 Wilmington, South Australia, Australia"
-site: "https://www.environment.sa.gov.au/parks/find-a-park/Browse_by_region/flinders-ranges-outback/mount-remarkable-national-park"
+site: "https://people-unleashed.com"
 slides: slides/adirondack/
 video: "https://youtu.be/QLDeHpivoEo"
 image: "img/peopleLogo1.png"

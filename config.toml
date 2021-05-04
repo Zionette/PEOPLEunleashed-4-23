@@ -52,7 +52,7 @@ theme = "story"
   url = "https://mypatriotsnetwork.com/" 
   
 [[menu.main]]
-  name = "Community-Support-Network"
+  name = "CSN"
   title = "CSN"
   url = "https://strategy2020.connective.network/mystream/stream" 
 
