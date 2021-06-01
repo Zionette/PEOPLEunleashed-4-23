@@ -51,10 +51,7 @@ theme = "story"
   title = "MPN"
   url = "https://mypatriotsnetwork.com/" 
   
-[[menu.main]]
-  name = "CSN"
-  title = "CSN"
-  url = "https://strategy2020.connective.network/mystream/stream" 
+
 
 
 
